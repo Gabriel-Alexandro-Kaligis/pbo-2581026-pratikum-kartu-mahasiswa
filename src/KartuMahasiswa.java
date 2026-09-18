@@ -5,3 +5,5 @@ public class KartuMahasiswa {
     Scanner input = new Scanner(System.in);
 
 
+    System.out.print("Nama lengkap     : ");
+    String namaLengkap = input.nextLine();
