@@ -7,3 +7,5 @@ public class KartuMahasiswa {
 
     System.out.print("Nama lengkap     : ");
     String namaLengkap = input.nextLine();
+
+    System.out.println("Nama       : " + namaLengkap);
