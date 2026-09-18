@@ -4,8 +4,6 @@ public class KartuMahasiswa {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    System.out.print("Nama lengkap     : ");
-    String namaLengkap = input.nextLine();
 
     System.out.print("NIK (16 digit)   : ");
     long nik = input.nextLong();
@@ -25,6 +23,8 @@ public class KartuMahasiswa {
 
     input.nextLine();
 
+    System.out.print("Nama lengkap     : ");
+    String namaLengkap = input.nextLine();
 
     System.out.println();
     System.out.println("===== KARTU MAHASISWA =====");
